@@ -1,0 +1,23 @@
+# Application Configuration Settings
+
+# General settings
+app_name: MyApp
+app_version: 1.0.0
+
+# Database configuration
+database:
+  host: localhost
+  port: 5432
+  name: myapp_db
+  user: db_user
+  password: secure_password
+
+# Server settings
+server:
+  host: 0.0.0.0
+  port: 8080
+
+# Logging settings
+logging:
+  level: info
+  file: /var/log/myapp.log
